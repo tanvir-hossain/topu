@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.banner{
+	height: 100px;
+	background: url('inc/image/banner.jpg');
+	background-size: cover;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.menu  li {
+    float: left;
+    width: 14%;
+}
+
+.menu  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu  li a:hover {
+    background-color: #11111140;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  	border: 1px solid black;
+   color: black;
+   text-align: center;
+}

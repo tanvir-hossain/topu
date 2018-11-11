@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blog-list>
+    <blog>
+        <id>1</id>
+        <body>lorem ispum</body>
+        <image>demo.jpg</image>
+        <user-email>tofayelhtopu@gmail.com</user-email>
+    </blog>
+    <blog>
+        <id>1635926</id>
+        <body>asghdsagdasg</body>
+        <file>1065545_your-lie-in-april-computer-wallpapers-desktop-backgrounds_4133x2480_h.jpg</file>
+        <user-email>abc</user-email>
+    </blog>
+    <blog>
+        <id>1583680</id>
+        <body>dsgsgdasg</body>
+        <file>1065545_your-lie-in-april-computer-wallpapers-desktop-backgrounds_4133x2480_h.jpg</file>
+        <user-email>abc</user-email>
+    </blog>
+    <blog>
+        <id>1225586</id>
+        <body>dsgsgdasg</body>
+        <file>1065545_your-lie-in-april-computer-wallpapers-desktop-backgrounds_4133x2480_h.jpg</file>
+        <user-email>abc</user-email>
+    </blog>
+    <blog>
+        <id>280762</id>
+        <body>dsgdsgdas</body>
+        <file>Capture.PNG</file>
+        <user-email>abc</user-email>
+    </blog>
+</blog-list>
