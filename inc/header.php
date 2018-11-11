@@ -19,7 +19,7 @@ define( 'SCRIPT_ROOT', 'http://localhost/topu' );
 			<li><a href="">Home</a></li>
 			<li><a href="">Products</a></li>
 			<li><a href="">Customers</a></li>
-			<li><a class="active" href="">Blog</a></li>
+			<li><a class="active" href="<?php echo  SCRIPT_ROOT;?>/index.php">Blog</a></li>
 			<li><a href="">About Us</a></li>
             <?php
                 if(!isset($_SESSION['email'])) :

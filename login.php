@@ -45,6 +45,7 @@
 
    ?>
 <span style="color:red"><?php echo $erroremail; ?></span>
+<span style="color:red"><?php echo $dntfound; ?></span>
 <div style='width:400px; margin:150px auto;'>
 <form action="login.php" method="POST">
    <h1>Sign In </h1>

@@ -13,21 +13,43 @@ function addUser($name, $password, $email, $usertype)
 
 function createBlogPost()
 {
+    $title = $_POST['title'];
     $body = $_POST['body'];
     fileUpload();
     $xml = simplexml_load_file(SCRIPT_ROOT."/xml/blog.xml") or die("Not Found");
     $user = $xml->addChild("blog");
     $user->addChild('id', rand(1,2000000));
+    $user->addChild('title', $title);
     $user->addChild('body', $body);
     if($_FILES['image']){
-        $user->addChild('file', $_FILES["image"]["name"]);
+        $user->addChild('image', $_FILES["image"]["name"]);
     }
     else{
-        $user->addChild('file','');
+        $user->addChild('image','');
     }
 
-    $user->addChild('user-email', "abc");
+    $user->addChild('user-email', $_SESSION['email']);
     $xml->saveXML("./../xml/blog.xml");
+
+}
+
+function createImagePost()
+{
+    $title = $_POST['title'];
+    fileUpload();
+    $xml = simplexml_load_file(SCRIPT_ROOT."/xml/image.xml") or die("Not Found");
+    $user = $xml->addChild("blog");
+    $user->addChild('id', rand(1,2000000));
+    $user->addChild('title', $title);
+    if($_FILES['image']){
+        $user->addChild('image', $_FILES["image"]["name"]);
+    }
+    else{
+        $user->addChild('image','');
+    }
+
+    $user->addChild('user-email', $_SESSION['email']);
+    $xml->saveXML("./../xml/image.xml");
 
 }
 

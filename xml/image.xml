@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image-list>
+    <image>
+        <id>1</id>
+        <title>This is Demo Title</title>
+        <image>demo.jpg</image>
+        <user-email>tofayelhtopu@gmail.com</user-email>
+    </image>
+    <image>
+        <id>1</id>
+        <title>This is Demo Title</title>
+        <image>demo.jpg</image>
+        <user-email>tofayelhtopu@gmail.com</user-email>
+    </image>
+    <image>
+        <id>1</id>
+        <title>This is Demo Title</title>
+        <image>demo.jpg</image>
+        <user-email>tofayelhtopu@gmail.com</user-email>
+    </image>
+<blog><id>643067</id><title>Another</title><image>bangla-guru.png</image><user-email>tofayelhtopu@gmail.com</user-email></blog><blog><id>1597718</id><title>sgsadg</title><image>bangla-guru.png</image><user-email>tofayelhtopu@gmail.com</user-email></blog></image-list>

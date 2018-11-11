@@ -2,32 +2,9 @@
 <blog-list>
     <blog>
         <id>1</id>
-        <body>lorem ispum</body>
+        <title>This is Demo Title</title>
+        <body>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</body>
         <image>demo.jpg</image>
         <user-email>tofayelhtopu@gmail.com</user-email>
-    </blog>
-    <blog>
-        <id>1635926</id>
-        <body>asghdsagdasg</body>
-        <file>1065545_your-lie-in-april-computer-wallpapers-desktop-backgrounds_4133x2480_h.jpg</file>
-        <user-email>abc</user-email>
-    </blog>
-    <blog>
-        <id>1583680</id>
-        <body>dsgsgdasg</body>
-        <file>1065545_your-lie-in-april-computer-wallpapers-desktop-backgrounds_4133x2480_h.jpg</file>
-        <user-email>abc</user-email>
-    </blog>
-    <blog>
-        <id>1225586</id>
-        <body>dsgsgdasg</body>
-        <file>1065545_your-lie-in-april-computer-wallpapers-desktop-backgrounds_4133x2480_h.jpg</file>
-        <user-email>abc</user-email>
-    </blog>
-    <blog>
-        <id>280762</id>
-        <body>dsgdsgdas</body>
-        <file>Capture.PNG</file>
-        <user-email>abc</user-email>
     </blog>
 </blog-list>
